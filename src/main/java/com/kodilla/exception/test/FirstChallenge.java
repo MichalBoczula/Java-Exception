@@ -23,6 +23,8 @@ public class FirstChallenge {
 
             result = 0;
             System.out.println("You can't divide by 0");
+        } finally {
+            System.out.println("End of calculations");
         }
 
         System.out.println(result);
